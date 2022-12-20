@@ -1,0 +1,29 @@
+/*
+Theme Name: Theme enfant
+Description: Theme enfant Planty
+Author: nicok
+Template: oceanwp
+Version: 0.1.0
+*/
+
+.gout {
+    background-color: #ECE2DA;
+    padding: 20px 0px 20px 0px;
+    border-bottom-left-radius: 100px 15px;
+    border-bottom-right-radius: 100px 15px;
+}
+.meet {
+    background-color: #ECE2DA;
+    padding: 20px 0px 20px 0px;
+    border-bottom-left-radius: 150px 15px;
+    border-bottom-right-radius: 150px 15px;
+    margin-top: 0px;
+}
+.nousContacter {
+    background-color: #ECE2DA;
+    display: flex;
+}
+.body {
+    background-color:#3B8E46;
+    
+}
