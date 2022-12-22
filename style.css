@@ -6,24 +6,92 @@ Template: oceanwp
 Version: 0.1.0
 */
 
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css?family=Syne");
+
+body {
+    font-family: 'Syne';
+}
+
+#site-navigation {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: 'Syne';
+    font-weight: bold;
+}
+
+.search-toggle-li {
+    display: none;
+}
+
+#menu-item-307 {
+    background-color: #DC9F96;
+}
+
+#menu-item-307 span {
+    color: white;
+}
+
+.navFooter {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+    padding-bottom: 10px;
+    font-family: 'Syne';
+    font-weight: bold;
+}
+
+/* Page d'accueil */
+
+.boisson {
+    background-color: #ECE2DA;
+    border-bottom-left-radius: 100px 15px;
+    border-bottom-right-radius: 100px 15px;
+}
+
 .gout {
     background-color: #ECE2DA;
     padding: 20px 0px 20px 0px;
     border-bottom-left-radius: 100px 15px;
     border-bottom-right-radius: 100px 15px;
+    max-width: 100%;
 }
+
+/* Nous Rencontrer */
+
 .meet {
     background-color: #ECE2DA;
     padding: 20px 0px 20px 0px;
-    border-bottom-left-radius: 150px 15px;
-    border-bottom-right-radius: 150px 15px;
+    border-bottom-left-radius: 400px 60px;
+    border-bottom-right-radius: 400px 60px;
     margin-top: 0px;
 }
+
 .nousContacter {
     background-color: #ECE2DA;
     display: flex;
 }
+
+#wpforms-submit-171 {
+    background-color: #E0B9B4;
+}
+
+/* Commander */
+
 .body {
-    background-color:#3B8E46;
-    
+    background-color: #3B8E46;
+}
+
+.body img {
+    max-width: 100%;
+    width: 192px;
+}
+
+.gouts {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
 }
