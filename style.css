@@ -14,23 +14,33 @@ body {
     font-family: 'Syne';
 }
 
-#site-navigation {
+.navHeader {
     display: flex;
     flex-direction: row;
-    text-decoration: none;
     font-family: 'Syne';
     font-weight: bold;
+    list-style-type: none;
+    justify-content: flex-end;
+    max-width: 100%;
+}
+
+.nav-link {
+    margin: 10px;
 }
 
 .search-toggle-li {
     display: none;
 }
 
+.menu-item{
+    padding: 15px;
+}
+
 #menu-item-307 {
     background-color: #DC9F96;
 }
 
-#menu-item-307 span {
+#menu-item-307 a {
     color: white;
 }
 
