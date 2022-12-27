@@ -20,19 +20,11 @@ body {
     font-family: 'Syne';
     font-weight: bold;
     list-style-type: none;
-    justify-content: flex-end;
+    justify-content: space-between;
     max-width: 100%;
 }
 
-.nav-link {
-    margin: 10px;
-}
-
-.search-toggle-li {
-    display: none;
-}
-
-.menu-item{
+.menu-item {
     padding: 15px;
 }
 
@@ -42,6 +34,21 @@ body {
 
 #menu-item-307 a {
     color: white;
+}
+
+.logo {
+    max-width: 201px;
+    max-height: 19px;
+}
+
+.customHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customHeader a {
+    margin-top: 30px;
+
 }
 
 .navFooter {
@@ -104,4 +111,30 @@ body {
     display: flex;
     margin: auto;
     margin-top: 10px;
+}
+
+/* Media queries */
+
+@media (min-width: 320px) and (max-width: 1024px) {
+
+    .body {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .customHeader {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .plante,
+    .fleur {
+        display: none;
+    }
 }
