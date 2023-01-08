@@ -23,7 +23,7 @@ function planty_menu_link_class($attrs)
 function add_admin_link($items, $args)
 {
     if (is_user_logged_in() && $args->menu == 'Menu Principal') {
-        $items .= '<li><a class=hookLink href="admin">Admin</a></li>';
+        $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a class="nav-item" href="admin">Admin</a></li>';
     }
     return $items;
 }
